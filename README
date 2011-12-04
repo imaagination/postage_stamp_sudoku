@@ -1,0 +1,10 @@
+Peter Maag
+Last Updated: 4 December 2011
+
+Postage stamp sudoku is an attempt to write a sudoku solver that is concise enough to fit on a postage stamp. I didn't have a hard limit in mind when I started. The goal was just to write a funcioning program using the fewest characters possible. 
+
+Structure:
+The input board is defined in the file board.h. The board is simply an array of 81 integers. The 0 digit signifies a blank square. 
+
+Algorithm:
+The solver uses an efficient backtracking algorithm. Though using this algorithm requires slightly more code, it solves puzzles remarkably fast in practice. 
