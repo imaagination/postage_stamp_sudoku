@@ -6,3 +6,6 @@ all: postage_stamp_sudoku.c board.h
 
 solve: all
 	./postage_stamp_sudoku
+
+clean:
+	rm postage_stamp_sudoku
