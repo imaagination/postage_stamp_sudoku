@@ -8,3 +8,6 @@ The input board is defined in the file board.h. The board is simply an array of 
 
 Algorithm:
 The solver uses an efficient backtracking algorithm. Though using this algorithm requires slightly more code, it solves puzzles remarkably fast in practice. 
+
+Readable file:
+The file postage_stamp_sudoku_expanded.c contains a version of the program that is more readable than the postage stamp version. This version is not identical, but it uses the same algorithm.
